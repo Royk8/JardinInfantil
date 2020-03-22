@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="543d095b-10ec-4a29-bdad-c26997812e5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Logro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Actores/Logro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Actores/Ninno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actores/Ninno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Logro.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +21,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/Royk8/JardinInfantil.git" />
+      </set>
+    </option>
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
