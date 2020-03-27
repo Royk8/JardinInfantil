@@ -1,21 +1,20 @@
 package Actores;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
-import java.util.Date;
+
 
 public class Ninno extends Persona{
     private int edad;
     private float talla, peso;
     private String situacionEspecial, nivel;
     private char genero, horario;
-    private Date fechaDeNacimiento;
+    private LocalDate fechaDeNacimiento;
     private ArrayList<Logro> logros;
 
-    public Ninno(long id, String nombre, String idType, int edad, float talla, float peso,
-                 String situacionEspecial, String nivel, char genero, char horario, Date fechaDeNacimiento,
-                 ArrayList<Logro> logros) {
-
-        super(id, nombre, idType);
+    public Ninno(long id, String nombre, String apellido, String idType, int edad, float talla, float peso,
+                 String situacionEspecial, String nivel, char genero, char horario, int day, int month, int year) {
+        super(id, nombre, apellido, idType);
         this.edad = edad;
         this.talla = talla;
         this.peso = peso;
@@ -23,9 +22,7 @@ public class Ninno extends Persona{
         this.nivel = nivel;
         this.genero = genero;
         this.horario = horario;
-        this.fechaDeNacimiento = fechaDeNacimiento;
-        this.logros = logros;
-
+        this.fechaDeNacimiento = LocalDate.of(year,month,day);
+        this.logros = new ArrayList<Logro>();
     }
-
 }

@@ -4,8 +4,9 @@ public class Pariente extends Persona {
     private long telefono, celular;
     private String calidad, direccion;
 
-    public Pariente(long id, String nombre, String idType, long telefono, long celular, String calidad, String direccion) {
-        super(id, nombre, idType);
+    public Pariente(long id, String nombre, String apellido, String idType, long telefono,
+                    long celular, String calidad, String direccion) {
+        super(id, nombre, apellido, idType);
         this.telefono = telefono;
         this.celular = celular;
         this.calidad = calidad;

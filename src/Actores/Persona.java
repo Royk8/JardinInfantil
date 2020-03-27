@@ -1,13 +1,15 @@
 package Actores;
 
-public class Persona {
+public abstract class Persona {
     private long id;
-    public static String nombre;
+    private String nombre;
+    private String apellido;
     private String idType;
 
-    public Persona(long id, String nombre, String idType) {
+    public Persona(long id, String nombre, String apellido, String idType) {
         this.id = id;
         this.nombre = nombre;
+        this.apellido = apellido;
         this.idType = idType;
     }
 
