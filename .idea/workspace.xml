@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="543d095b-10ec-4a29-bdad-c26997812e5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Actores/Logro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Actores/Bimestre.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Actores/Acudiente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actores/Acudiente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Actores/Logro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actores/Logro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Actores/Ninno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actores/Ninno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Logro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Actores/Pariente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actores/Pariente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Actores/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actores/Persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Actores/Profesor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actores/Profesor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Jardin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Jardin.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +26,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="JavaFX" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GithubPullRequestsUISettings">
@@ -44,7 +55,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -78,10 +94,11 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1584480856698">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="686" y="114" key="#com.intellij.ide.util.MemberChooser" timestamp="1585355105529">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1584480856698" />
+    <state x="686" y="114" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585355105529" />
     <state x="531" y="253" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1584480293333">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -90,5 +107,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1584480224489" />
+    <state x="664" y="413" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1585354331914">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="664" y="413" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1585354331914" />
   </component>
 </project>

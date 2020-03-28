@@ -1,10 +1,11 @@
 package Actores;
 
 public class Pariente extends Persona {
-    private long telefono, celular;
+    private String telefono, celular;
     private String calidad, direccion;
 
-    public Pariente(long id, String nombre, String idType, long telefono, long celular, String calidad, String direccion) {
+    public Pariente(String id, String nombre, String idType, String telefono, String celular,
+                    String calidad, String direccion) {
         super(id, nombre, idType);
         this.telefono = telefono;
         this.celular = celular;
@@ -12,19 +13,19 @@ public class Pariente extends Persona {
         this.direccion = direccion;
     }
 
-    public long getTelefono() {
+    public String getTelefono() {
         return telefono;
     }
 
-    public void setTelefono(long telefono) {
+    public void setTelefono(String telefono) {
         this.telefono = telefono;
     }
 
-    public long getCelular() {
+    public String getCelular() {
         return celular;
     }
 
-    public void setCelular(long celular) {
+    public void setCelular(String celular) {
         this.celular = celular;
     }
 

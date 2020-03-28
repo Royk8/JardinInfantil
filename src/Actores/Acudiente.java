@@ -3,7 +3,8 @@ package Actores;
 public class Acudiente extends Pariente {
     private String horario, permiso;
 
-    public Acudiente(long id, String nombre, String idType, long telefono, long celular, String calidad, String direccion, String horario, String permiso) {
+    public Acudiente(String id, String nombre, String idType, String telefono, String celular,
+                     String calidad, String direccion, String horario, String permiso) {
         super(id, nombre, idType, telefono, celular, calidad, direccion);
         this.horario = horario;
         this.permiso = permiso;

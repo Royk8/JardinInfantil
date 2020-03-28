@@ -1,20 +1,20 @@
 package Actores;
 
 public class Profesor extends Persona {
-    private long telefono;
+    private String telefono;
     private String especialidad;
 
-    public Profesor(long id, String nombre, String idType, long telefono, String especialidad) {
+    public Profesor(String id, String nombre, String idType, String telefono, String especialidad) {
         super(id, nombre, idType);
         this.telefono = telefono;
         this.especialidad = especialidad;
     }
 
-    public long getTelefono() {
+    public String getTelefono() {
         return telefono;
     }
 
-    public void setTelefono(long telefono) {
+    public void setTelefono(String telefono) {
         this.telefono = telefono;
     }
 
